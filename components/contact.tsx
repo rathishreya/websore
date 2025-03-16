@@ -195,7 +195,7 @@ export default function Contact() {
                 <ContactCard
                   icon={<Mail className="h-5 w-5" />}
                   title="Email"
-                  content="hello@example.com"
+                  content="rathi1.shreyanshi@gmail.com"
                   color="purple"
                 />
               </motion.div>
@@ -204,7 +204,7 @@ export default function Contact() {
                 <ContactCard
                   icon={<Phone className="h-5 w-5" />}
                   title="Phone"
-                  content="+1 (555) 123-4567"
+                  content="8700407153"
                   color="teal"
                 />
               </motion.div>
@@ -213,7 +213,7 @@ export default function Contact() {
                 <ContactCard
                   icon={<MapPin className="h-5 w-5" />}
                   title="Location"
-                  content="San Francisco, CA"
+                  content="New Delhi"
                   color="pink"
                 />
               </motion.div>
@@ -222,16 +222,16 @@ export default function Contact() {
             <motion.div variants={itemVariants} className="mt-12">
               <h3 className="text-2xl font-semibold mb-6 text-gradient">Follow Me</h3>
               <div className="flex space-x-4">
-                <SocialButton href="#" aria-label="GitHub" color="purple">
+                <SocialButton href="https://github.com/rathishreya" aria-label="GitHub" color="purple">
                   <Github className="h-5 w-5" />
                 </SocialButton>
                 <SocialButton href="#" aria-label="Twitter" color="teal">
                   <Twitter className="h-5 w-5" />
                 </SocialButton>
-                <SocialButton href="#" aria-label="LinkedIn" color="pink">
+                <SocialButton href="https://www.linkedin.com/in/shreyanshi-rathi-1b413224b/" aria-label="LinkedIn" color="pink">
                   <Linkedin className="h-5 w-5" />
                 </SocialButton>
-                <SocialButton href="#" aria-label="Instagram" color="amber">
+                <SocialButton href="https://github.com/rathishreya" aria-label="Instagram" color="amber">
                   <Instagram className="h-5 w-5" />
                 </SocialButton>
               </div>

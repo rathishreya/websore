@@ -5,11 +5,11 @@ import { motion, useInView } from "framer-motion"
 
 const skills = [
   { name: "React / Next.js", level: 95, color: "purple" },
-  { name: "TypeScript", level: 90, color: "teal" },
+  { name: "Power BI", level: 90, color: "teal" },
   { name: "Tailwind CSS", level: 85, color: "pink" },
-  { name: "Framer Motion", level: 80, color: "amber" },
+  { name: "CPP", level: 95, color: "amber" },
   { name: "Node.js", level: 75, color: "purple" },
-  { name: "Three.js", level: 70, color: "teal" },
+  { name: "MySQL", level: 87, color: "teal" },
 ]
 
 const tools = [
@@ -197,9 +197,9 @@ export default function Skills() {
                     transition={{ duration: 0.5 }}
                   />
                   <h4 className="font-medium text-lg group-hover:text-purple transition-colors duration-300">
-                    Bachelor of Computer Science
+                    BTech. Computer Science And Engineering
                   </h4>
-                  <p className="text-sm text-foreground/70">University of Technology, 2018-2022</p>
+                  <p className="text-sm text-foreground/70">Maharaja Surajmal Institute Of Technology</p>
                 </motion.div>
                 <motion.div
                   className="bg-teal/10 p-6 rounded-lg border border-teal/20 relative overflow-hidden group"
@@ -212,9 +212,9 @@ export default function Skills() {
                     transition={{ duration: 0.5 }}
                   />
                   <h4 className="font-medium text-lg group-hover:text-teal transition-colors duration-300">
-                    Advanced React & Next.js Certification
+                    Microsoft Student Ambassador - Beta
                   </h4>
-                  <p className="text-sm text-foreground/70">Frontend Masters, 2023</p>
+                  <p className="text-sm text-foreground/70">MSC-MSIT</p>
                 </motion.div>
               </div>
             </motion.div>

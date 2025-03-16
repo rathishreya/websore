@@ -8,10 +8,10 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const navItems = [
-  { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
-  { name: "Skills", href: "#skills" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "components\about.tsx" },
+  { name: "Projects", href: "components\projects.tsx" },
+  { name: "Skills", href: "components\skills.tsx" },
+  { name: "Contact", href: "components\contact.tsx" },
 ]
 
 export default function Navbar() {

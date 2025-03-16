@@ -10,9 +10,9 @@ import Image from "next/image"
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Jewel Zone",
     description: "A full-featured online store with cart functionality, user authentication, and payment processing.",
-    image: "/placeholder.svg?height=300&width=600",
+    image: "public\jewel.jpeg",
     tags: ["Next.js", "Tailwind CSS", "Stripe", "Prisma"],
     liveUrl: "#",
     githubUrl: "#",
@@ -20,9 +20,9 @@ const projects = [
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A productivity application for managing tasks, projects, and team collaboration.",
-    image: "/placeholder.svg?height=300&width=600",
+    title: "Hospital Website(ongoing)",
+    description: "A comprehensive hospital management system with patient records, appointment scheduling, and staff management features.",
+    image: "public\hosp.png",
     tags: ["React", "TypeScript", "Redux", "Firebase"],
     liveUrl: "#",
     githubUrl: "#",
@@ -32,7 +32,7 @@ const projects = [
     id: 3,
     title: "Portfolio Website",
     description: "A creative portfolio website with animations and interactive elements.",
-    image: "/placeholder.svg?height=300&width=600",
+    image: "public\port.png",
     tags: ["Next.js", "Framer Motion", "Three.js", "Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "#",
